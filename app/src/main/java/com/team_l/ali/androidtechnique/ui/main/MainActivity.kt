@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val layoutManager = LinearLayoutManager(this)
-        val list = mutableListOf(TextClass(resources.getString(R.string.short_text)),
-                ImgClass("hello world !",R.drawable.google_wants))
+        val list = mutableListOf(TextClass(resources.getString(R.string.long_text)),
+                ImgClass(resources.getString(R.string.short_text),R.drawable.google_wants))
         main_recycler_view.layoutManager = layoutManager
         main_recycler_view.adapter = MainAdapter(list)
 
