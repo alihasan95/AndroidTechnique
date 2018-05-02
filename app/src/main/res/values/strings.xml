@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">androidTechnique</string>
+    <string name="short_text">Gradle itself is more forgiving but Android Studio not so much</string>
+
+</resources>
